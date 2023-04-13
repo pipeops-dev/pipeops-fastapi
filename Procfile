@@ -1,1 +1,1 @@
-web: pipeops-fastapi
+web: python main.py
