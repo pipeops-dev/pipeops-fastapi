@@ -15,8 +15,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code into the container
 COPY . .
 
-# Expose port 8000 for the Django application
-EXPOSE 5000
+# Expose port 8000 for the FastAPI application
+EXPOSE 8000
 
-# Start the Django development server
-CMD ["python", "main.py", "0.0.0.0:8000"]
+# Start the FastAPI development server
+CMD ["uvicorn", "main:app", "--reload"]

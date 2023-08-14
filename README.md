@@ -26,5 +26,5 @@ $ pip install -r requirements.txt
 Start your local server
 
 ```bash
-$ python main
+$ uvicorn main:app --reload
 ```
