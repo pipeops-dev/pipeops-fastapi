@@ -1,0 +1,48 @@
+# Git
+
+.git/
+.gitignore
+
+# Python
+
+**pycache**/
+_.py[cod]
+_$py.class
+\*.so
+.Python
+venv/
+.venv/
+env/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+
+.idea/
+.vscode/
+_.swp
+_.swo
+\*~
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment
+
+.env
+.env.local
+
+# Documentation
+
+\*.md
+docs/
+
+# OS
+
+.DS_Store
+Thumbs.db
