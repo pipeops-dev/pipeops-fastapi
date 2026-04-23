@@ -10,7 +10,7 @@ pydantic==2.9.1
 python-dotenv
 PyYAML
 sniffio
-starlette==0.47.2
+starlette==0.49.1
 typing_extensions
 uvicorn==0.34.0
 watchfiles
